@@ -1,9 +1,15 @@
+md-sidenav-layout {
+    height: 100%;
+}
+
 md-sidenav-layout.m2app-dark {
   background: black;
 }
 
 .app-content {
   padding: 20px;
+  text-align: center;
+  font-size: 24px;
 }
 
 .app-content md-card {
@@ -13,10 +19,16 @@ md-sidenav-layout.m2app-dark {
 .app-sidenav {
   padding: 10px;
   min-width: 100px;
+  background: white;
+  border-right: 1px solid gray;
 }
 
 .app-content md-checkbox {
   margin: 10px;
+}
+
+.app-toolbar {
+    border-bottom: 1px solid gray;
 }
 
 .app-toolbar-filler {
@@ -25,7 +37,7 @@ md-sidenav-layout.m2app-dark {
 
 .app-toolbar-menu {
   padding: 0 14px 0 14px;
-  color: white;
+  color: black;
 }
 
 .app-icon-button {
@@ -43,6 +55,12 @@ md-sidenav-layout.m2app-dark {
   padding: 0;
   text-align: left;
   text-decoration: none;
+}
+
+.app-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .app-action {
